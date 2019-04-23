@@ -33,6 +33,9 @@ class Appbar extends Component {
               <NavItem>
                 <NavLink href="/">Resume</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="/">Contact</NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
