@@ -1,7 +1,9 @@
 html {
   min-height: 100%;
+  max-width: 99%;
 }
 
 body {
   background: linear-gradient(to right bottom, #638de6, rgb(226, 194, 224)) fixed;
+  width: 100%
 }

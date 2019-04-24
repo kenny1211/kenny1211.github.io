@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import './Appbar.css';
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
 
 class Appbar extends Component {
   constructor(props) {
@@ -19,8 +18,7 @@ class Appbar extends Component {
   render() {
     return (
       <div>
-        <Navbar className="appbar-style" light expand="md">
-          <NavbarBrand href="/">Kenny Nguyen</NavbarBrand>
+        <Navbar style={{ background: 'transparent' }} light expand="md">
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

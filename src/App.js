@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Appbar from './components/Appbar';
 import About from './components/About';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
             <About />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

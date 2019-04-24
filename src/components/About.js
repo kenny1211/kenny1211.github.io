@@ -4,7 +4,7 @@ import { Card, CardBody, CardText } from 'reactstrap';
 const About = () => {
   return (
     <div>
-      <Card style={{ background: 'transparent' }}>
+      <Card style={{ background: 'transparent', borderColor: 'transparent', marginTop: '20%' }}>
         <CardBody>
           <CardText>
             I have always wanted to build something special. But I never trusted myself to because I
