@@ -1,0 +1,13 @@
+[{
+    "id": 1,
+    "name": "curren$ee",
+    "icon": "<i class='fas fa-file-invoice-dollar fa-5x'></i>",
+    "link": "https://github.com/jhadev/currensee"
+  },
+  {
+    "id": 2,
+    "name": "gymagenda",
+    "icon": "<i class='fas fa-dumbbell fa-5x'></i>",
+    "link": "https://github.com/kenny1211/gymagenda"
+  }
+]
