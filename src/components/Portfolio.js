@@ -19,18 +19,18 @@ class Portfolio extends Component {
                   key={project.id}
                   style={{ borderColor: 'transparent', background: 'transparent' }}
                 >
-                  <span
-                    className={project.icon}
-                    style={{ display: 'inline-block', width: '100%', textAlign: 'center' }}
-                  />
-                  <CardBody>
-                    <CardLink
-                      style={{ color: 'black', textAlign: 'center' }}
-                      href={project.link}
-                      target="_blank"
-                    >
-                      <CardTitle>{project.name}</CardTitle>
-                    </CardLink>
+                  <CardLink
+                    style={{ color: 'black', textAlign: 'center' }}
+                    href={project.link}
+                    target="_blank"
+                  >
+                    <span
+                      className={project.icon}
+                      style={{ display: 'inline-block', width: '100%', textAlign: 'center' }}
+                    />
+                  </CardLink>
+                  <CardBody style={{ textAlign: 'center', marginTop: '-1vh' }}>
+                    <CardTitle>{project.name}</CardTitle>
                   </CardBody>
                 </Card>
               </div>

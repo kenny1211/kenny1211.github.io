@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Tooltip } from 'reactstrap';
+import '../App.css';
 
 class PortfolioTooltip extends Component {
   constructor(props) {
@@ -20,14 +21,14 @@ class PortfolioTooltip extends Component {
   render() {
     return (
       <div>
-        <span style={{ color: 'black' }} href="#" id="TooltipExample">
-          <i class="fas fa-question fa-lg" style={{ marginTop: '2.5%' }} />
+        <span style={{ color: 'black', textAlign: 'center' }} href="#" id="TooltipExample">
+          <i className="fas fa-question fa-lg quest-icon" />
         </span>
 
         <Tooltip
           style={{ background: 'transparent', color: 'black' }}
           trigger="hover"
-          placement="bottom"
+          placement="top"
           isOpen={this.state.tooltipOpen}
           target="TooltipExample"
           toggle={this.toggle}

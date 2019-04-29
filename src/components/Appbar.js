@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
+import '../App.css';
 
 class Appbar extends Component {
   constructor(props) {
@@ -25,26 +26,31 @@ class Appbar extends Component {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="#">
-                  <Link style={{ color: 'black' }} to="/">
+                  <Link className="appbar-link" style={{ color: 'black' }} to="/">
                     About
                   </Link>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#">
-                  <Link style={{ color: 'black' }} to="/portfolio">
+                  <Link className="appbar-link" style={{ color: 'black' }} to="/portfolio">
                     Portfolio
                   </Link>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">
-                  <Link style={{ color: 'black' }}>Resume</Link>
+                <NavLink
+                  style={{ color: 'black' }}
+                  className="appbar-link"
+                  href="https://docs.google.com/document/d/1VR9c0vXJVXMUT40QphJVvAZUjvFvQZhqZCWIUeASX1M/edit?usp=sharing"
+                  target="_blank"
+                >
+                  Resume
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={{ color: 'black' }} href="#">
-                  <Link style={{ color: 'black' }} to="/contact">
+                <NavLink className="appbar-link" style={{ color: 'black' }} href="#">
+                  <Link style={{ color: 'black' }} className="appbar-link" to="/contact">
                     Contact
                   </Link>
                 </NavLink>

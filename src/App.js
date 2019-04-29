@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div>
         <BrowserRouter>
-          <div>
+          <div style={{ width: '99vw' }}>
             <Appbar />
             <Route exact path="/" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
