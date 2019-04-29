@@ -1,18 +1,12 @@
 import React from 'react';
 import { Card, CardBody, CardText } from 'reactstrap';
+import '../App.css';
 
 const About = () => {
   return (
     <div className="row">
-      <div className="col-4 mx-auto">
-        <Card
-          style={{
-            background: 'transparent',
-            borderColor: 'transparent',
-            marginTop: '20%',
-            textAlign: 'center'
-          }}
-        >
+      <div className="col-12 col-md-4 mx-auto">
+        <Card className="about-card">
           <CardBody>
             <CardText>
               I have always wanted to build something special. But I never trusted myself to because

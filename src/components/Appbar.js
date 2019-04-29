@@ -38,13 +38,15 @@ class Appbar extends Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={{ color: 'black' }} href="#">
-                  Resume
+                <NavLink href="#">
+                  <Link style={{ color: 'black' }}>Resume</Link>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink style={{ color: 'black' }} href="#">
-                  Contact
+                  <Link style={{ color: 'black' }} to="/contact">
+                    Contact
+                  </Link>
                 </NavLink>
               </NavItem>
             </Nav>

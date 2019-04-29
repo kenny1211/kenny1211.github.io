@@ -5,4 +5,29 @@
   height: 10vh;
   background: transparent;
   text-align: center;
+  display: inline-block;
+  z-index: 0;
+}
+
+.about-card {
+  background: transparent;
+  border-color: transparent;
+  margin-top: 10vh;
+  text-align: center
+}
+
+.contact-card {
+  background: transparent;
+  border-color: transparent;
+  margin-top: 10vh;
+}
+
+@media screen and (max-width: 570px) {
+  .about-card {
+    margin-top: 5vh;
+  }
+
+  .contact-card {
+    margin-top: 5vh;
+  }
 }

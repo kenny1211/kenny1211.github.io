@@ -5,6 +5,7 @@ import Appbar from './components/Appbar';
 import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import ContactPage from './components/ContactPage';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             <Appbar />
             <Route exact path="/" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={ContactPage} />
             <Footer />
           </div>
         </BrowserRouter>
