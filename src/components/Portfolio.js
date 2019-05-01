@@ -11,7 +11,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <div className="row">
+        <div className="row" style={{ position: 'relative' }}>
           {projects.map(project => {
             return (
               <div className="col-12" style={{ alignContent: 'center', marginTop: '5%' }}>

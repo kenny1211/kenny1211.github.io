@@ -11,7 +11,7 @@ const ContactPage = () => {
     <div className="row">
       <div className="col-12 col-md-4 mx-auto">
         <Card className="contact-card">
-          <CardTitle style={{ marginBottom: '-1vh', textAlign: 'center' }}>
+          <CardTitle style={{ marginBottom: '-1vh', textAlign: 'center', position: 'relative' }}>
             <h5>Contact Me</h5>
           </CardTitle>
           <CardBody>

@@ -1,5 +1,5 @@
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 10vh;
   background: transparent;
@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 570px) {
   .about-card {
-    margin-top: 5vh;
+    margin-top: 4vh;
   }
 
   .contact-card {
@@ -44,4 +44,5 @@
   .quest-icon {
     margin-top: 17%
   }
+
 }
