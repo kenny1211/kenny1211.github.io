@@ -36,7 +36,7 @@ class Appbar extends Component {
               <NavItem className="ml-auto mr-2" style={navItem}>
                 <NavLink href="#">
                   <Link
-                    onClick={this.changeState}
+                    // onClick={this.changeState}
                     className="appbar-link"
                     style={{ color: 'black' }}
                     to="/"
@@ -48,7 +48,7 @@ class Appbar extends Component {
               <NavItem className="ml-auto mr-2">
                 <NavLink href="#">
                   <Link
-                    onClick={this.toggle}
+                    // onClick={this.toggle}
                     className="appbar-link"
                     style={{ color: 'black' }}
                     to="/portfolio"
@@ -59,7 +59,7 @@ class Appbar extends Component {
               </NavItem>
               <NavItem className="ml-auto mr-2">
                 <NavLink
-                  onClick={this.toggle}
+                  // onClick={this.toggle}
                   style={{ color: 'black' }}
                   className="appbar-link"
                   href="https://docs.google.com/document/d/1VR9c0vXJVXMUT40QphJVvAZUjvFvQZhqZCWIUeASX1M/edit?usp=sharing"
@@ -71,7 +71,7 @@ class Appbar extends Component {
               <NavItem className="ml-auto mr-2">
                 <NavLink className="appbar-link" style={{ color: 'black' }} href="#">
                   <Link
-                    onClick={this.toggle}
+                    // onClick={this.toggle}
                     style={{ color: 'black' }}
                     className="appbar-link"
                     to="/contact"
