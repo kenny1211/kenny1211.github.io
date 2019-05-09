@@ -10,8 +10,8 @@
 .about-card {
   background: transparent;
   border-color: transparent;
-  margin-top: 10vh;
-  text-align: center
+  margin-top: 32.5%;
+  text-align: center;
 }
 
 .contact-card {
@@ -29,7 +29,7 @@
 }
 
 .quest-icon {
-  margin-top: 7%
+  margin-top: 7%;
 }
 
 @media screen and (max-width: 570px) {
@@ -42,7 +42,6 @@
   }
 
   .quest-icon {
-    margin-top: 17%
+    margin-top: 17%;
   }
-
 }

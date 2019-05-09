@@ -4,7 +4,7 @@ import '../App.css';
 
 const About = () => {
   return (
-    <div className="row" style={{ position: 'relative' }}>
+    <div className="row" style={{ position: 'relative', height: '100%' }}>
       <div className="col-12 col-md-4 mx-auto">
         <Card className="about-card">
           <CardBody>
